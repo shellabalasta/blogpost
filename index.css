@@ -1,0 +1,124 @@
+@media screen and (max-width: 768px) {
+    main {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+}
+
+
+
+body{
+    background-color: lightsalmon;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+main section{
+    margin: 20px;
+}
+
+header h1{
+    border: 1px solid;
+    width: 180px;
+    background-color: whitesmoke;
+}
+
+header{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+/*First Paragraph*/
+
+#firstp{
+    display: grid;
+    border: 1px solid;
+    width: 200ppx;
+    background-color: whitesmoke;
+}
+
+#firstp h2{
+    text-align: center;
+}
+
+/*Second Paragraph*/
+
+#secondp{
+    
+    display: grid;
+    border: 1px solid;
+    width: 200ppx;
+    background-color: whitesmoke;
+}
+
+#secondp h2{
+    text-align: center;
+}
+
+/*Third Paragraph*/
+
+#thirdp{
+    
+    display: grid;
+    border: 1px solid;
+    width: 200ppx;
+    background-color: whitesmoke;
+}
+
+#thirdp h2{
+    text-align: center;
+ 
+}
+
+/*Fourth Paragraph*/
+
+#fourthp{
+    margin-top: 60px;
+    display: grid;
+    border: 1px solid;
+    width: 200ppx;
+    background-color: whitesmoke;
+}
+
+#fourthp h2{
+    text-align: center;
+ 
+}
+/*Fifth Paragraph*/
+
+#fifthp{
+    margin-top: 60px;
+    display: grid;
+    border: 1px solid;
+    width: 200ppx;
+    background-color: whitesmoke;
+}
+
+#fifthp h2{
+    text-align: center;
+ 
+}
+
+/*Sixth Paragraph*/
+
+#sixthp{
+    margin-top: 60px;
+    display: grid;
+    border: 1px solid;
+    width: 200ppx;
+    background-color: whitesmoke;
+}
+
+#sixthp h2{
+    text-align: center;
+ 
+}
